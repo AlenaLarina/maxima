@@ -1,17 +1,21 @@
-import React from "react";
+import React, {useContext} from "react";
 import {cards} from "../components/db";
-import Card from "../components/Card";
+import Cards from "../components/Cards/Cards";
+import {AppContext} from "../App";
+import {Link, useNavigate,} from "react-router-dom";
 
 const Main = () => {
+    const {details} = useContext(AppContext)
+    let navigate = useNavigate();
     return (
         <main className="body__main">
             <h2 className="body__description">Заведенные дефекты</h2>
-            {cards.map((card)=>{
+            {details.map((cards)=>{
                 return (
-                    <Card key={card.id} id={card.id} title={card.title} status={card.status}/>
+                    <Cards key={cards.id} cards={cards}/>
                 )
             })}
-            <button className="body__button">Создать</button>
+            <button onClick={()=>navigate("/create")}  className="body__button">Создать</button>
         </main>
 
     )

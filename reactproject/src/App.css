@@ -3,46 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-.body__header {
-  background: #6667AB;
-}
-
-.body__nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 15px;
-}
-
-.body__logo {
-  width: 40px;
-  height: 30px;
-}
-
-.body__title{
-  color: white;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.body__auth-button {
-  background: white;
-  color: #6667AB;
-  padding: 10px;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-}
-
-li {
-  list-style-type: none;
-  margin: 5px;
-}
 
 .body__main {
   display: flex;
@@ -58,56 +18,6 @@ li {
   font-weight: bold;
   color: #6667AB;
   font-size: 22px;
-}
-
-.body__card {
-  width: 95%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 15px;
-  margin: 10px auto;
-  border: 2px solid #6667AB;
-  border-radius: 7px;
-}
-
-.card__id {
-  font-weight: bold;
-  color: #575656;
-}
-
-.card__title {
-  width: 500px;
-  color: #484747;
-  font-size: 18px;
-}
-
-.card__status {
-  color: #6667AB;
-  border: 1px solid #6667AB;
-  border-radius: 5px;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 2px;
-  width: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.card__button {
-  border: 1px solid #6667AB;
-  background: white;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-
-.card__img {
-  height: 25px;
-  width: 25px;
-  padding: 2px;
 }
 
 .body__button {
