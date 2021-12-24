@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.body__main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.body__description {
+  width: 100%;
+  margin: 30px auto;
+  padding: 0 50px;
+  font-weight: bold;
+  color: #6667AB;
+}
+
+.body__button {
+  font-size: 20px;
+  font-weight: bold;
+  background: white;
+  border: 2px solid #6667AB;
+  border-radius: 5px;
+  color: #6667AB;
+  padding: 10px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.back__button {
+    background-color: white;
+    color: #6667AB;
+    text-align: center;
+    border: 2px solid #6667AB;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 60px;
+    z-index: 2;
+}
