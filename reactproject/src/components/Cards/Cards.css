@@ -10,6 +10,7 @@
 }
 
 .cards__id {
+  width: 48px;
   font-weight: bold;
   color: #575656;
 }
@@ -20,10 +21,15 @@
   font-size: 18px;
 }
 
+.cards__info {
+    display: flex;
+    flex-direction: row;
+}
+
 .cards__status {
-  color: #6667AB;
-  border: 1px solid #6667AB;
-  border-radius: 5px;
+  color: white;
+  background: #6667AB;
+  border-radius: 20px;
   font-size: 12px;
   font-weight: bold;
   padding: 2px;
@@ -34,12 +40,13 @@
 }
 
 .cards__button {
-  border: 1px solid #6667AB;
+  border: 2px solid #6667AB;
   background: white;
   border-radius: 5px;
   display: flex;
   align-items: center;
   cursor: pointer;
+  margin-left: 15px;
 }
 
 .cards__img {
